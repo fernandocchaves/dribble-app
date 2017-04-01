@@ -1,0 +1,45 @@
+.shot-title{
+  height: 52px;
+}
+
+.shot-card{
+  margin-bottom: 20px;
+  color: #635b5b;
+}
+
+.shot-card a{
+  color: #a25454;
+}
+
+.shot-image{
+  width: 100%;
+}
+
+.breadcrumb{
+  color: #fff;
+  background: #292b2c;
+}
+
+.breadcrumb a{
+  color: #fff;
+}
+
+.breadcrumb .active{
+  color: #b9b5b5;
+}
+
+.thumbnail{
+  border: none;
+  padding: 0;
+  box-shadow: none;
+}
+
+label{
+  color: #635b5b;
+}
+
+@media (max-width: 1091px) {
+  .shot-list{
+    margin-top: 40px;
+  }
+}
