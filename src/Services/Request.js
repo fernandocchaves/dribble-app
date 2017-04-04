@@ -4,12 +4,12 @@ import axios from 'axios'
 import api from '../Constants/Api'
 
 class Request {
-  get (params) {
+  get (route, params) {
     if (params === undefined) {
       params = {}
     }
 
-    return axios.get(api.baseUrl + '/shots', {
+    return axios.get(api.baseUrl + route, {
       headers: {
         'Authorization': 'Bearer ' + api.token
       },

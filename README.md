@@ -7,7 +7,7 @@ Tecnologias utilizadas
 ========================
 
 * Node v7.7.3
-* Maven 4.1.2
+* NPM 4.1.2
 * webpack 1.13.3
 
 Como iniciar o projeto
